@@ -3,21 +3,10 @@
   display: flex;
   align-items: stretch;
 }
-.row-layout {
-  align-items: stretch;
-  top: 319px;
-  left: 718px;
-  position: absolute;
-  width: 563px;
-  height: 411px;
+.grid {
+  width: 1603px;
+  height: 965px;
   min-width: 50px;
   min-height: 50px;
-}
-.text {
-  height: max-content;
-  min-width: min-content;
-  white-space: pre-wrap;
-}
-.row {
-  display: flex;
+  flex-shrink: 0;
 }
