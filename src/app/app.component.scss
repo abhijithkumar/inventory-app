@@ -10,6 +10,8 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  top: -1.5906652221679667px;
+  left: 0.9999619140625233px;
   background-color: transparent;
   position: absolute;
   min-width: 50px;
@@ -24,20 +26,20 @@
   min-width: 50px;
   min-height: 50px;
 }
-.row-layout_2 {
-  top: 70px;
-  left: 0;
-  position: absolute;
-  width: 1922px;
+.absolute-layout {
   height: 708px;
-  align-items: stretch;
+  position: relative;
+  width: 1922px;
   min-width: 50px;
   min-height: 50px;
 }
-.absolute-layout {
-  position: relative;
+.row-layout_2 {
+  height: 923px;
+  top: 71px;
+  left: 0;
+  position: absolute;
   width: 1922px;
-  height: 708px;
+  align-items: stretch;
   min-width: 50px;
   min-height: 50px;
 }
