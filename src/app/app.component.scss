@@ -4,52 +4,9 @@
   align-items: stretch;
   overflow: hidden;
 }
-.row-layout {
-  width: 1936px;
-  height: 70px;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  top: -1.5906652221679667px;
-  left: 0.9999619140625233px;
-  background-color: transparent;
-  position: absolute;
-  min-width: 50px;
-  min-height: 50px;
-}
-.row-layout_1 {
-  width: 731px;
-  background-color: var(--igx-grays-300);
-  margin: 10px;
+.views-container {
   position: relative;
-  align-items: stretch;
-  min-width: 50px;
-  min-height: 50px;
-}
-.absolute-layout {
-  height: 708px;
-  position: relative;
-  width: 1922px;
-  min-width: 50px;
-  min-height: 50px;
-}
-.row-layout_2 {
-  height: 923px;
-  top: 71px;
-  left: 0;
-  position: absolute;
-  width: 1922px;
-  align-items: stretch;
-  min-width: 50px;
-  min-height: 50px;
-}
-.grid {
-  width: 1901px;
-  height: 577px;
-  min-width: 50px;
-  min-height: 50px;
-  flex-shrink: 0;
-}
-.row {
-  display: flex;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
 }
