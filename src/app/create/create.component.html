@@ -1,3 +1,8 @@
-<div class="row-layout row">
-  <p class="text"></p>
-</div>
+<igx-grid [data]="productLaptopTable1" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="1603px" height="965px" displayDensity="cosy" primaryKey="id" class="grid">
+  <igx-column field="id" header="id" title="id" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="publicId" header="publicId" title="publicId" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="name" header="name" title="name" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="price" header="price" title="price" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="instock" header="instock" title="instock" dataType="string" [sortable]="true"></igx-column>
+  <igx-column field="description" header="description" title="description" dataType="string" [sortable]="true"></igx-column>
+</igx-grid>

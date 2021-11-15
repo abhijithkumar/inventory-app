@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CreateComponent } from './create/create.component';
 import { IgxGridModule, IgxActionStripModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     IgxGridModule,
     IgxActionStripModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
