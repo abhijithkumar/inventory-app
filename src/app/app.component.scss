@@ -1,0 +1,53 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+.row-layout {
+  width: 1936px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout_1 {
+  width: 731px;
+  background-color: var(--igx-grays-300);
+  margin: 10px;
+  position: relative;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout_2 {
+  top: 70px;
+  left: 0;
+  position: absolute;
+  width: 1922px;
+  height: 708px;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+}
+.absolute-layout {
+  position: relative;
+  width: 1922px;
+  height: 708px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.grid {
+  width: 1901px;
+  height: 577px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.row {
+  display: flex;
+}
