@@ -4,9 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateComponent } from './create/create.component';
-import { IgxInputGroupModule, IgxSelectModule, IgxGridModule, IgxActionStripModule, IgxIconModule } from 'igniteui-angular';
+import { IgxInputGroupModule, IgxSelectModule, IgxGridModule, IgxActionStripModule, IgxButtonModule, IgxIconModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { ListComponent } from './list/list.component';
+import { ChildViewComponent } from './child-view/child-view.component';
 import { FetchComponent } from './fetch/fetch.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     CreateComponent,
     ListComponent,
+    ChildViewComponent,
     FetchComponent
   ],
   imports: [
@@ -27,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     IgxGridModule,
     IgxActionStripModule,
+    IgxButtonModule,
     IgxIconModule,
     HttpClientModule
   ],
