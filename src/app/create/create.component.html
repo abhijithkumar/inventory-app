@@ -26,5 +26,12 @@
       </igx-select-item>
     </igx-select>
   </div>
-  <div class="row-layout_1 row"></div>
+  <div class="row-layout_1 row">
+    <button igxButton="outlined" igxButtonColor="var(--igx-error-500)" igxButtonBackground="transparent" [disabled]="false" class="button">
+      <span>Cancel</span>
+    </button>
+    <button igxButton="raised" igxButtonBackground="var(--igx-error-500)" [disabled]="false" routerLink="/list" class="button_1">
+      <span>Save &amp; Update</span>
+    </button>
+  </div>
 </div>
