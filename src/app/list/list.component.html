@@ -1,16 +1,14 @@
-<div class="absolute-layout">
-  <div class="row-layout row">
-    <div class="row-layout_1 row"></div>
-  </div>
-  <div class="row-layout_2 row">
-    <igx-grid [data]="dataSource3Table2" [autoGenerate]="false" width="1901px" height="577px" displayDensity="cosy" primaryKey="status" class="grid">
-      <igx-column field="status" header="status" title="status" dataType="string"></igx-column>
-      <igx-column field="sku_id" header="sku_id" title="sku_id" dataType="string"></igx-column>
-      <igx-column field="description" header="description" title="description" dataType="string"></igx-column>
-      <igx-column field="product_type" header="product_type" title="product_type" dataType="string"></igx-column>
-      <igx-column field="stock_available" header="stock_available" title="stock_available" dataType="string"></igx-column>
-      <igx-column field="in_stock" header="in_stock" title="in_stock" dataType="string"></igx-column>
-      <igx-column field="reserved" header="reserved" title="reserved" dataType="string"></igx-column>
-    </igx-grid>
-  </div>
+<div class="row-layout row">
+  <igx-grid [data]="dataSource3Table2" [autoGenerate]="false" width="1916px" height="577px" displayDensity="cosy" primaryKey="status" class="grid">
+    <igx-column field="status" header="status" title="status" dataType="string"></igx-column>
+    <igx-column field="sku_id" header="sku_id" title="sku_id" dataType="string"></igx-column>
+    <igx-column field="description" header="description" title="description" dataType="string"></igx-column>
+    <igx-column field="product_type" header="product_type" title="product_type" dataType="string"></igx-column>
+    <igx-column field="stock_available" header="stock_available" title="stock_available" dataType="string"></igx-column>
+    <igx-column field="in_stock" header="in_stock" title="in_stock" dataType="string"></igx-column>
+    <igx-column field="reserved" header="reserved" title="reserved" dataType="string"></igx-column>
+  </igx-grid>
+  <button igxButton="raised" [disabled]="false" class="button">
+    <span>Button</span>
+  </button>
 </div>

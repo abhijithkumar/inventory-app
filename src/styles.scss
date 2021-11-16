@@ -10,18 +10,16 @@ html, body {
 @import '~igniteui-angular/lib/core/styles/themes/index';
 
 @include igx-core();
-@include igx-typography($font-family: "Roboto", $type-scale: $bootstrap-type-scale);
+@include igx-typography($font-family: "Open Sans", $type-scale: $fluent-type-scale);
 
 $custom-palette: igx-palette(
-  $primary: #007bff,
-  $secondary: #6c757d,
-  $surface: #f8f9fa,
-  $error: #dc3545,
-  $success: #28a745,
-  $warn: #ffc107,
-  $info: #17a2b8,
-  $variant: 'bootstrap');
-@include igx-theme($palette: $custom-palette, $schema: $light-bootstrap-schema);
+  $primary: #2b579a,
+  $secondary: #2b579a,
+  $error: #a80000,
+  $success: #107c10,
+  $warn: #797673,
+  $variant: 'fluent');
+@include igx-theme($palette: $custom-palette, $schema: $light-fluent-schema);
 
 body {
   background: var(--igx-surface-500);
