@@ -5,8 +5,13 @@
 }
 .grid {
   width: 1603px;
-  height: 965px;
+  height: 458px;
   min-width: 50px;
   min-height: 50px;
   flex-shrink: 0;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
 }
