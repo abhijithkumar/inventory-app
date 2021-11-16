@@ -6,14 +6,14 @@
 .row-layout {
   align-items: stretch;
   width: 1366px;
-  height: 800px;
+  height: 766px;
   min-width: 50px;
   min-height: 50px;
 }
 .grid {
   margin: 60px 0 0;
-  width: 1366px;
-  height: 800px;
+  width: 1362px;
+  height: 725px;
   min-width: 50px;
   min-height: 50px;
   flex-shrink: 0;
@@ -25,7 +25,6 @@
   width: 88.0102861328125px;
   height: max-content;
   min-width: min-content;
-  flex-shrink: 0;
 }
 .row {
   display: flex;
