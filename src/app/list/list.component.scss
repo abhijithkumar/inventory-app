@@ -5,25 +5,18 @@
 }
 .row-layout {
   align-items: stretch;
-  width: 1969px;
-  height: 700px;
+  width: 1366px;
+  height: 800px;
   min-width: 50px;
   min-height: 50px;
 }
 .grid {
   margin: 50px 0 0;
-  width: 1916px;
-  height: 577px;
+  width: 1366px;
+  height: 800px;
   min-width: 50px;
   min-height: 50px;
   flex-shrink: 0;
-}
-.button {
-  top: 1.0000101725260415px;
-  right: 50px;
-  position: absolute;
-  height: max-content;
-  min-width: min-content;
 }
 .row {
   display: flex;
